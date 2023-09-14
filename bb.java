@@ -21,11 +21,11 @@ import java.util.Scanner;
                 
                  double soma =0;
                 for(int i=0;i< N;i++){
-                    soma = soma + altura[i];
+                    soma = soma + idade[i];
                 }
-                System.out.println("soma: " + soma);
+                System.out.println("soma das idades: " + soma);
                 double media = soma/N;
-                System.out.println("media: " + media);
+                System.out.println("media das idades: " + media);
 
                 int menorque = 0;
                 for(int i=0;i< N;i++){
@@ -36,7 +36,7 @@ import java.util.Scanner;
                     }
                 }
                 int percentagem = (menorque*100)/N;
-                System.out.println(percentagem + "%");
+                System.out.println("% menor que 16 anos: " + percentagem + "%");
 
                   sc.close(); 
             }
