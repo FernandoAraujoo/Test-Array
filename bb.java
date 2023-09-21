@@ -28,7 +28,7 @@ import java.util.Scanner;
                 System.out.println("media das idades: " + media);
 
                 int menorque = 0;
-                for(int i=0;i< N;i++){
+                    for(int i=0;i< N;i++){
                     if(idade[i]<16){
                         menorque = menorque + 1;
                     }
